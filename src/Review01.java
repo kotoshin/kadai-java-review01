@@ -13,7 +13,7 @@ public class Review01 {
 
     private static int tax(int num1, double num2) {
         System.out.println("1500円の税込価格は：" + (num1 *num2));
-        int num =16500;
+        int num = 0;
         //税込価格＝商品価格＋消費税
         
         num = (int) (num1 * num2);
