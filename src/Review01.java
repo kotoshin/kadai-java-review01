@@ -7,8 +7,10 @@ public class Review01 {
     public static void main(String[] args) {
         int num1= 1500; //商品価格
         double num2= 0.1;  //消費税
-      int num = tax(num1, num2);
+      int num = tax(num1, num2);       
+      System.out.println ("num1 + num2 消費税込み= " + (num1 + num));
         System.out.println(num);
+        
     }
 
     private static int tax(int num1, double num2) {
